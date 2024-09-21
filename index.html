@@ -1,0 +1,698 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="bezel - Responsive One Page Parallax Template"
+    />
+    <title>Bezel</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/all.min.css" />
+    <link rel="stylesheet" href="css/slick-theme.css" />
+    <link rel="stylesheet" href="css/slick.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body data-bs-spy="scroll">
+    <header>
+      <nav id="navbar" class="navbar navbar-expand-md navbar-default">
+        <div class="container-md">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              id="logo"
+              src="./images/logo-light.png"
+              class="w-100"
+              alt="logo"
+            />
+          </a>
+          <button
+            class="navbar-toggler border-0"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarNav"
+            aria-controls="navbarNav"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <i class="fa-solid fa-bars fs-3"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#Home"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#About">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Team">Team</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Services">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Works">Works</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#Pricing">Pricing</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact">Contact</a>
+              </li>
+
+              <ul
+                class="nav-icon pe-3 text-white d-flex align-items-center gap-4"
+              >
+                <li><i class="fab fa-twitter cursor-pointer"></i></li>
+                <li><i class="fab fa-facebook-f cursor-pointer"></i></li>
+                <li><i class="fab fa-instagram cursor-pointer"></i></li>
+              </ul>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <section id="Home" class="position-relative">
+        <div
+          id="heroSlider"
+          class="carousel slide carousel-fade position-relative"
+          data-bs-ride="carousel"
+          data-bs-interval="10000"
+        >
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <div
+                class="inner d-flex flex-column align-items-center justify-content-center text-center text-white"
+              >
+                <h1 class="fw-bold">Get Awesome.</h1>
+                <p>We are an innovative company making digital stuff.</p>
+                <div>
+                  <button class="btn my-btn btn-main rounded-3">
+                    Read More
+                  </button>
+                  <button class="btn my-btn btn-light-custom rounded-3">
+                    Contact
+                  </button>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <div
+                class="inner d-flex flex-column align-items-center justify-content-center text-center text-white"
+              >
+                <h1 class="fw-bold">Create With Bezel.</h1>
+                <p>We help ambitious companies create new value.</p>
+                <div>
+                  <button class="btn my-btn btn-main rounded-3">Hire Us</button>
+                  <button class="btn my-btn btn-light-custom rounded-3">
+                    Services
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button
+            class="carousel-control-prev"
+            type="button"
+            data-bs-target="#heroSlider"
+            data-bs-slide="prev"
+          >
+            <span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </span>
+          </button>
+          <button
+            class="carousel-control-next"
+            type="button"
+            data-bs-target="#heroSlider"
+            data-bs-slide="next"
+          >
+            <span>
+              <i class="fa-solid fa-arrow-left"></i>
+            </span>
+          </button>
+        </div>
+      </section>
+    </header>
+    <main>
+      <section id="About">
+        <div class="container">
+          <div class="text-center col-12 col-md-8 mx-auto px-2">
+            <h2>Who We Are</h2>
+            <p class="fs-5 my-4 lh-base fw-light">
+              We are an innovative company. We develop and design
+              <span>websites</span> for <br />
+              costumers around the world. Our clients are some of the most
+              forward-looking companies in the world.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="Team">
+        <div class="container">
+          <div class="section-title mx-auto text-center">
+            <h2>Creative Team</h2>
+            <p>We are digital thinkers</p>
+          </div>
+          <div class="row">
+            <div class="col-sm-6 col-lg-3">
+              <figure>
+                <div class="img position-relative overflow-hidden rounded-2">
+                  <div
+                    class="layer position-absolute top-0 start-0 w-100 h-100 rounded-2 d-flex flex-column justify-content-between p-3"
+                  >
+                    <ul class="p-0 d-flex gap-4 text-white">
+                      <li class="cursor-pointer">
+                        <i class="fab fa-twitter"></i>
+                      </li>
+                      <li class="cursor-pointer">
+                        <i class="fab fa-facebook-f"></i>
+                      </li>
+                      <li class="cursor-pointer">
+                        <i class="fab fa-linkedin-in"></i>
+                      </li>
+                      <li class="cursor-pointer">
+                        <i class="fab fa-dribbble"></i>
+                      </li>
+                    </ul>
+                    <figcaption class="text-white mt-3">
+                      <h5 class="mb-0 fw-semibold">Luke Cage</h5>
+                      <span>Founder & CEO</span>
+                    </figcaption>
+                  </div>
+                  <img
+                    src="./images/team-1.jpg"
+                    class="w-100 rounded-2"
+                    alt="munber-1"
+                  />
+                </div>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <figure>
+                <div class="img position-relative overflow-hidden rounded-2">
+                  <div
+                    class="layer position-absolute top-0 start-0 w-100 h-100 rounded-2 d-flex flex-column justify-content-between p-3"
+                  >
+                    <ul class="p-0 d-flex gap-4 text-white">
+                      <li class="cursor-pointer">
+                        <i class="fab fa-twitter"></i>
+                      </li>
+                      <li class="cursor-pointer">
+                        <i class="fab fa-facebook-f"></i>
+                      </li>
+                      <li class="cursor-pointer">
+                        <i class="fab fa-linkedin-in"></i>
+                      </li>
+                      <li class="cursor-pointer">
+                        <i class="fab fa-dribbble"></i>
+                      </li>
+                    </ul>
+                    <figcaption class="text-white mt-3">
+                      <h5 class="mb-0 fw-semibold">Jessica Jones</h5>
+                      <span>Product Designer</span>
+                    </figcaption>
+                  </div>
+                  <img
+                    src="./images/team-2.jpg"
+                    class="w-100 rounded-2"
+                    alt="munber-1"
+                  />
+                </div>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <figure>
+                <div class="img position-relative overflow-hidden rounded-2">
+                  <div
+                    class="layer position-absolute top-0 start-0 w-100 h-100 rounded-2 d-flex flex-column justify-content-between p-3"
+                  >
+                    <ul class="p-0 d-flex gap-4 text-white">
+                      <li class="cursor-pointer">
+                        <i class="fab fa-twitter"></i>
+                      </li>
+                      <li class="cursor-pointer">
+                        <i class="fab fa-facebook-f"></i>
+                      </li>
+                      <li class="cursor-pointer">
+                        <i class="fab fa-linkedin-in"></i>
+                      </li>
+                      <li class="cursor-pointer">
+                        <i class="fab fa-dribbble"></i>
+                      </li>
+                    </ul>
+                    <figcaption class="text-white mt-3">
+                      <h5 class="mb-0 fw-semibold">Matt Murdock</h5>
+                      <span>Lead Developer</span>
+                    </figcaption>
+                  </div>
+                  <img
+                    src="./images/team-3.jpg"
+                    class="w-100 rounded-2"
+                    alt="munber-1"
+                  />
+                </div>
+              </figure>
+            </div>
+            <div class="col-sm-6 col-lg-3">
+              <figure>
+                <div class="img position-relative overflow-hidden rounded-2">
+                  <div
+                    class="layer position-absolute top-0 start-0 w-100 h-100 rounded-2 d-flex flex-column justify-content-between p-3"
+                  >
+                    <ul class="p-0 d-flex gap-4 text-white">
+                      <li class="cursor-pointer">
+                        <i class="fab fa-twitter"></i>
+                      </li>
+                      <li class="cursor-pointer">
+                        <i class="fab fa-facebook-f"></i>
+                      </li>
+                      <li class="cursor-pointer">
+                        <i class="fab fa-linkedin-in"></i>
+                      </li>
+                      <li class="cursor-pointer">
+                        <i class="fab fa-dribbble"></i>
+                      </li>
+                    </ul>
+                    <figcaption class="text-white mt-3">
+                      <h5 class="mb-0 fw-semibold">Claire Temple</h5>
+                      <span>Sales Manager</span>
+                    </figcaption>
+                  </div>
+                  <img
+                    src="./images/team-4.jpg"
+                    class="w-100 rounded-2"
+                    alt="munber-1"
+                  />
+                </div>
+              </figure>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Services" class="text-white">
+        <div class="container">
+          <div class="row">
+            <div class="col-12 my-5">
+              <ul
+                class="d-flex align-content-center justify-content-between fw-bold flex-wrap gap-3"
+              >
+                <li>Stunning Design</li>
+                <li>Time Saver</li>
+                <li>Clean Code</li>
+                <li>Customizable</li>
+                <li>Perfect Layout</li>
+                <li>Retina Ready</li>
+              </ul>
+            </div>
+            <div class="col-md-12 col-lg-6">
+              <div class="section-title mx-auto text-center text-md-start">
+                <h2 class="text-white d-inline-block">What We Do.</h2>
+              </div>
+              <p class="text-center text-md-start pe-md-5 me-md-5">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                Aliquam ipsam ullam incidunt itaque nemo omnis temporibus totam
+                quibusdam repellat vero, recusandae excepturi dignissimos velit
+                et alias amet, quia facilis perferendis.
+              </p>
+            </div>
+            <div class="col-6 col-lg-3">
+              <ul class="">
+                <li class="mb-3">
+                  <i class="fa-regular fa-circle-check"></i> Stunning Design
+                </li>
+                <li class="mb-3">
+                  <i class="fa-regular fa-circle-check"></i> Time Saver
+                </li>
+                <li class="mb-3">
+                  <i class="fa-regular fa-circle-check"></i> Clean Code
+                </li>
+                <li class="mb-3">
+                  <i class="fa-regular fa-circle-check"></i> Customizable
+                </li>
+                <li class="mb-3">
+                  <i class="fa-regular fa-circle-check"></i> Perfect Layout
+                </li>
+                <li class="mb-3">
+                  <i class="fa-regular fa-circle-check"></i> Retina Ready
+                </li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-3">
+              <ul class="">
+                <li class="mb-3">
+                  <i class="fa-regular fa-circle-check"></i> Stunning Design
+                </li>
+                <li class="mb-3">
+                  <i class="fa-regular fa-circle-check"></i> Time Saver
+                </li>
+                <li class="mb-3">
+                  <i class="fa-regular fa-circle-check"></i> Clean Code
+                </li>
+                <li class="mb-3">
+                  <i class="fa-regular fa-circle-check"></i> Customizable
+                </li>
+                <li class="mb-3">
+                  <i class="fa-regular fa-circle-check"></i> Perfect Layout
+                </li>
+                <li class="mb-3">
+                  <i class="fa-regular fa-circle-check"></i> Retina Ready
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="Pricing">
+        <div class="container">
+          <div class="section-title mx-auto text-center">
+            <h2>Cheap Prices</h2>
+            <p>We provide the best quality.</p>
+          </div>
+          <div class="row">
+            <div class="col-md-6 col-sm-6 col-lg-3 box">
+              <div class="pricing-table bg-white rounded-3">
+                <div class="pricing-head">
+                  <h4 class="text-black mb-4">Starter</h4>
+                </div>
+                <div class="price">
+                  <h2 class="fw-medium m-0 pb-3 position-relative text-black">
+                    <span class="position-absolute top-0">$</span>9
+                  </h2>
+                </div>
+                <ul class="features d-flex flex-column p-0 mt-3">
+                  <li><span>Unlimited Connections</span></li>
+                  <li><span>24/7 Support</span></li>
+                  <li><span>Full SSL Protection</span></li>
+                  <li><span>Unlimited Channels</span></li>
+                </ul>
+                <div class="pricing-footer">
+                  <a class="btn btn-main mt-4" href="#">Sign Up</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-3 box">
+              <div class="pricing-table bg-white rounded-3">
+                <div class="pricing-head">
+                  <h4 class="text-black mb-4">Silver</h4>
+                </div>
+                <div class="price">
+                  <h2 class="fw-medium m-0 pb-3 position-relative text-black">
+                    <span class="position-absolute top-0">$</span>19
+                  </h2>
+                </div>
+                <ul class="features d-flex flex-column p-0 mt-3">
+                  <li><span>Unlimited Connections</span></li>
+                  <li><span>24/7 Support</span></li>
+                  <li><span>Full SSL Protection</span></li>
+                  <li><span>Unlimited Channels</span></li>
+                </ul>
+                <div class="pricing-footer">
+                  <a class="btn btn-main mt-4" href="#">Sign Up</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-3 box">
+              <div class="pricing-table bg-white rounded-3">
+                <div class="pricing-head">
+                  <h4 class="text-black mb-4">Gold</h4>
+                </div>
+                <div class="price">
+                  <h2 class="fw-medium m-0 pb-3 position-relative text-black">
+                    <span class="position-absolute top-0">$</span>29
+                  </h2>
+                </div>
+                <ul class="features d-flex flex-column p-0 mt-3">
+                  <li><span>Unlimited Connections</span></li>
+                  <li><span>24/7 Support</span></li>
+                  <li><span>Full SSL Protection</span></li>
+                  <li><span>Unlimited Channels</span></li>
+                </ul>
+                <div class="pricing-footer">
+                  <a class="btn btn-main mt-4" href="#">Sign Up</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-sm-6 col-lg-3 box">
+              <div class="pricing-table bg-white rounded-3">
+                <div class="pricing-head">
+                  <h4 class="text-black mb-4">Starter</h4>
+                </div>
+                <div class="price">
+                  <h2 class="fw-medium m-0 pb-3 position-relative text-black">
+                    <span class="position-absolute top-0">$</span>9
+                  </h2>
+                </div>
+                <ul class="features d-flex flex-column p-0 mt-3">
+                  <li><span>Unlimited Connections</span></li>
+                  <li><span>24/7 Support</span></li>
+                  <li><span>Full SSL Protection</span></li>
+                  <li><span>Unlimited Channels</span></li>
+                </ul>
+                <div class="pricing-footer">
+                  <a class="btn btn-main mt-4" href="#">Sign Up</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="review">
+        <div class="container">
+          <h4 class="mb-3 text-center fs-6 text-black">Happy Customers</h4>
+          <div class="silck-slider">
+            <div>
+              <div class="item position-relative bg-white mx-auto">
+                <div class="item-head">
+                  <img
+                    src="./images/testimonial-1.jpg"
+                    class="rounded-circle"
+                    alt=""
+                    style="width: 100px"
+                  />
+                </div>
+                <div class="item-body text-center">
+                  <h5 class="text-black fw-bold">Marissa Mayer</h5>
+                  <span class="fw-medium">CEO, Yahoo</span>
+                  <p>
+                    Quo rem cumque facere modi beatae. Deleniti nisi, repellat
+                    quae aspernatur consequatur consequuntur, fugit asperiores
+                    delectus beatae. Quae veniam, quidem cupiditate quia? Ut
+                    iste deleniti.
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div>
+              <div class="item position-relative bg-white mx-auto">
+                <div class="item-head">
+                  <img
+                    src="./images/testimonial-2.jpg"
+                    class="rounded-circle"
+                    alt=""
+                    style="width: 100px"
+                  />
+                </div>
+                <div class="item-body text-center">
+                  <h5 class="text-black fw-bold">Mark Zuckerberg</h5>
+                  <span class="fw-medium">Founder & CEO, Facebook</span>
+                  <p>
+                    Consectetur adipisicing elit. Perspiciatis aperiam quaerat
+                    iure veritatis fugit debitis, repellat aut accusantium culpa
+                    ipsum ex ipsa blanditiis recusandae, sit similique, eius
+                    assumenda porro pariatur.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="container-fluid">
+          <div class="row flex-column-reverse flex-md-row">
+            <div class="col-12 col-md-6 ps-0 pb-0">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m16!1m10!1m3!1d96687.5527504195!2d-73.960088!3d40.773328!2m1!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89c258f55fbea537%3A0x49d5f074061cac4e!2sLincoln%20Center%20for%20the%20Performing%20Arts!5e0!3m2!1sen!2sus!4v1726911705020!5m2!1sen!2sus"
+                style="border: 0"
+                width="100%"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"
+              ></iframe>
+            </div>
+            <div class="col-12 col-md-6 px-4 py-5">
+              <div class="section-title mx-auto text-center text-md-start">
+                <h2 class="d-inline-block">Get In Touch</h2>
+                <p>Let's work together.</p>
+              </div>
+              <form id="contact-form" action="mail.php" method="POST">
+                <div class="form-group mb-4">
+                  <label>Your Name</label>
+                  <input
+                    class="form-control"
+                    type="text"
+                    name="name"
+                    data-required=""
+                  />
+                </div>
+                <div class="form-group mb-4">
+                  <label>Your Email</label>
+                  <input
+                    class="form-control"
+                    type="email"
+                    name="email"
+                    data-required=""
+                  />
+                </div>
+                <div class="form-group mb-4">
+                  <label>Phone Number</label>
+                  <input class="form-control" type="text" name="phone" />
+                </div>
+                <div class="form-group mb-4">
+                  <label>Your Message</label>
+                  <textarea
+                    class="form-control"
+                    name="message"
+                    data-required=""
+                  ></textarea>
+                </div>
+                <div class="form-group mb-4">
+                  <button class="btn btn-main my-btn" type="submit">
+                    Send Message
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer id="footer">
+      <div class="footer-widgets">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-sm-6">
+              <div class="widget">
+                <figure class="footer-logo mb-15">
+                  <img src="images/logo-dark.png" alt="" />
+                </figure>
+                <div class="textwidget">
+                  <p>
+                    387 Madison Ave
+                    <br />New York, NY 10118
+                  </p>
+                  <p>hello@bezel.co <br />+1 301-736-4321</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="widget">
+                <h5>The Company</h5>
+                <div class="menu-footer">
+                  <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">What We Do</a></li>
+                    <li><a href="#">Our Vision</a></li>
+                    <li><a href="#">Portfolio</a></li>
+                    <li><a href="#">Careers</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="widget">
+                <h5>Recent Posts</h5>
+                <div class="menu-footer">
+                  <ul>
+                    <li><a href="#">You Can’t Handle Truth</a></li>
+                    <li><a href="#">How To Add Value To Your Life</a></li>
+                    <li><a href="#">A Letter to My 12-Year-Old Self</a></li>
+                    <li><a href="#">Weak Words Kill Experiences</a></li>
+                    <li><a href="#">An Almost Static Stack</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-3 col-sm-6">
+              <div class="widget">
+                <h5>Popular Tags</h5>
+                <div class="tagcloud">
+                  <a href="#">Business</a><a href="#">Design</a
+                  ><a href="#">Development</a><a href="#">Inspiration</a
+                  ><a href="#">Lifestyle</a><a href="#">Tips</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="footer-copy">
+        <div class="container">
+          <div class="row">
+            <div class="col-sm-6">
+              <ul class="social-list d-flex align-content-center">
+                <li class="social-item-linkedin">
+                  <a target="_blank" href="#"
+                    ><i class="fa-brands fs-4 fa-linkedin"></i
+                  ></a>
+                </li>
+                <li class="social-item-facebook">
+                  <a target="_blank" href="#"
+                    ><i class="fa-brands fs-4 fa-facebook"></i
+                  ></a>
+                </li>
+                <li class="social-item-twitter">
+                  <a target="_blank" href="#"
+                    ><i class="fa-brands fs-4 fa-twitter"></i
+                  ></a>
+                </li>
+                <li class="social-item-pinterest">
+                  <a target="_blank" href="#"
+                    ><i class="fa-brands fs-4 fa-pinterest"></i
+                  ></a>
+                </li>
+                <li class="social-item-instagram">
+                  <a target="_blank" href="#"
+                    ><i class="fa-brands fs-4 fa-square-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-sm-6">
+              <div class="copy-text w-auto ms-md-auto">
+                <p>© 2017 Bezel. All rights reserved.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
