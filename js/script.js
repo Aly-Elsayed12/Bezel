@@ -13,7 +13,7 @@ function changNavColor() {
     mouse.classList.replace("opacity-100", "opacity-0");
   } else {
     navbar.classList.replace("navbar-scroll", "navbar-default");
-    logo.setAttribute("src", "./image/logo-white.png");
+    logo.setAttribute("src", "./images/logo-white.png");
     mouse.classList.replace("opacity-0", "opacity-100");
   }
 }
